@@ -1,1 +1,63 @@
-function a0_0x2236(_0x2be850,_0x34e610){var _0x3f41a7=a0_0x3f41();return a0_0x2236=function(_0x2236dd,_0x1488a5){_0x2236dd=_0x2236dd-0x15c;var _0xe44b41=_0x3f41a7[_0x2236dd];return _0xe44b41;},a0_0x2236(_0x2be850,_0x34e610);}var a0_0x37c889=a0_0x2236;(function(_0x3238e1,_0x509255){var _0x2f3469=a0_0x2236,_0x2e7f90=_0x3238e1();while(!![]){try{var _0x4af328=-parseInt(_0x2f3469(0x15e))/0x1*(parseInt(_0x2f3469(0x171))/0x2)+parseInt(_0x2f3469(0x169))/0x3*(parseInt(_0x2f3469(0x163))/0x4)+parseInt(_0x2f3469(0x15f))/0x5*(parseInt(_0x2f3469(0x16c))/0x6)+-parseInt(_0x2f3469(0x161))/0x7+-parseInt(_0x2f3469(0x178))/0x8*(-parseInt(_0x2f3469(0x174))/0x9)+-parseInt(_0x2f3469(0x165))/0xa+parseInt(_0x2f3469(0x166))/0xb;if(_0x4af328===_0x509255)break;else _0x2e7f90['push'](_0x2e7f90['shift']());}catch(_0x2100bc){_0x2e7f90['push'](_0x2e7f90['shift']());}}}(a0_0x3f41,0x3d792),System[a0_0x37c889(0x16e)]([],function(_0x24f98b,_0x43ae0a){'use strict';var _0x3dc450,_0x3246ad;function _0x1501bc(_0x37eea9,_0x5e4340){var _0x59d171=a0_0x2236;if(!(_0x37eea9 instanceof _0x5e4340))throw new TypeError(_0x59d171(0x15d));}function _0x573589(_0x43b9e2,_0x340373){var _0x42cfae=a0_0x2236;for(var _0x41af92=0x0;_0x41af92<_0x340373['length'];_0x41af92++){var _0x4a0373=_0x340373[_0x41af92];_0x4a0373[_0x42cfae(0x164)]=_0x4a0373['enumerable']||![],_0x4a0373[_0x42cfae(0x16a)]=!![];if('value'in _0x4a0373)_0x4a0373[_0x42cfae(0x168)]=!![];Object[_0x42cfae(0x175)](_0x43b9e2,_0x4a0373['key'],_0x4a0373);}}function _0x2c92ff(_0x91acc1,_0x21983c,_0xbf3500){var _0x35fa12=a0_0x2236;if(_0x21983c)_0x573589(_0x91acc1[_0x35fa12(0x167)],_0x21983c);if(_0xbf3500)_0x573589(_0x91acc1,_0xbf3500);return _0x91acc1;}return{'setters':[],'execute':function(){var _0x16151a=a0_0x2236;_0x24f98b(_0x16151a(0x16b),_0x3246ad=(function(){var _0x55ac1b=_0x16151a;function _0x26904b(){var _0x56a95f=a0_0x2236;_0x1501bc(this,_0x26904b),this['settingsPath']=_0x56a95f(0x160),this[_0x56a95f(0x16d)]=![];}return _0x2c92ff(_0x26904b,[{'key':'init','value':function _0xb89e10(_0x3e04be){var _0x1cd292=a0_0x2236;_0x3dc450=_0x3e04be,_0x3dc450[_0x1cd292(0x172)][_0x1cd292(0x162)]['add'](this[_0x1cd292(0x173)][_0x1cd292(0x16f)](this)),_0x3dc450['game']['onPostSubsystemInitDelegate'][_0x1cd292(0x17a)](this['onPostSystemInit'][_0x1cd292(0x16f)](this));}},{'key':_0x55ac1b(0x173),'value':function _0x46a3a2(){}},{'key':_0x55ac1b(0x177),'value':function _0x1d9b91(){}},{'key':'start','value':function _0x5c2b77(){var _0x4f9d1d=_0x55ac1b;return _0x3dc450['game']['init']({'debugMode':![]?_0x3dc450[_0x4f9d1d(0x170)][_0x4f9d1d(0x179)]:_0x3dc450[_0x4f9d1d(0x170)][_0x4f9d1d(0x15c)],'settingsPath':this['settingsPath'],'overrideSettings':{'profiling':{'showFPS':this[_0x4f9d1d(0x16d)]}}})['then'](function(){var _0x2b4b42=_0x4f9d1d;return _0x3dc450[_0x2b4b42(0x172)][_0x2b4b42(0x176)]();});}}]),_0x26904b;}()));}};}));function a0_0x3f41(){var _0x3c1815=['3BpjneX','configurable','Application','24YyVLYw','showFPS','register','bind','DebugMode','6mxMFFj','game','onPostInitBase','9ZASNOx','defineProperty','run','onPostSystemInit','1569240BVBMKe','INFO','add','ERROR','Cannot\x20call\x20a\x20class\x20as\x20a\x20function','96447NgedFX','61805owRFKx','src/settings.json','2132368BXdebz','onPostBaseInitDelegate','552284OaPSoy','enumerable','1860200YwJHfz','7129199GnyyOy','prototype','writable'];a0_0x3f41=function(){return _0x3c1815;};return a0_0x3f41();}
+System.register([], function (_export, _context) {
+  "use strict";
+
+  var cc, Application;
+
+  function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+  function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+  function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+  return {
+    setters: [],
+    execute: function () {
+      _export("Application", Application = /*#__PURE__*/function () {
+        function Application() {
+          _classCallCheck(this, Application);
+
+          this.settingsPath = 'src/settings.json';
+          this.showFPS = false;
+        }
+
+        _createClass(Application, [{
+          key: "init",
+          value: function init(engine) {
+            cc = engine;
+            cc.game.onPostBaseInitDelegate.add(this.onPostInitBase.bind(this));
+            cc.game.onPostSubsystemInitDelegate.add(this.onPostSystemInit.bind(this));
+          }
+        }, {
+          key: "onPostInitBase",
+          value: function onPostInitBase() {// cc.settings.overrideSettings('assets', 'server', '');
+            // do custom logic
+          }
+        }, {
+          key: "onPostSystemInit",
+          value: function onPostSystemInit() {// do custom logic
+          }
+        }, {
+          key: "start",
+          value: function start() {
+            return cc.game.init({
+              debugMode: false ? cc.DebugMode.INFO : cc.DebugMode.ERROR,
+              settingsPath: this.settingsPath,
+              overrideSettings: {
+                // assets: {
+                //      preloadBundles: [{ bundle: 'main', version: 'xxx' }],
+                // }
+                profiling: {
+                  showFPS: this.showFPS
+                }
+              }
+            }).then(function () {
+              return cc.game.run();
+            });
+          }
+        }]);
+
+        return Application;
+      }());
+    }
+  };
+});

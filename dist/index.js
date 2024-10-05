@@ -1,1 +1,30 @@
-var a6_0x409a3e=a6_0x5a6a;function a6_0x5633(){var _0x1f351b=['62202mOxzJY','start','Application','import','parentElement','./application.js','3526204vRqQIA','GameCanvas','2164266hkzNLw','3303825srhyuJ','getBoundingClientRect','height','getElementById','75932DPBZfb','515uBgzcw','register','8251292JUXwUP','width','19046528AxFqER'];a6_0x5633=function(){return _0x1f351b;};return a6_0x5633();}function a6_0x5a6a(_0x3f63f4,_0x29ed26){var _0x5633ea=a6_0x5633();return a6_0x5a6a=function(_0x5a6add,_0x56a9cd){_0x5a6add=_0x5a6add-0x9a;var _0x3a3abf=_0x5633ea[_0x5a6add];return _0x3a3abf;},a6_0x5a6a(_0x3f63f4,_0x29ed26);}(function(_0x3e0169,_0x3e4459){var _0x308600=a6_0x5a6a,_0x8db5d2=_0x3e0169();while(!![]){try{var _0x251be3=-parseInt(_0x308600(0xa3))/0x1+-parseInt(_0x308600(0x9e))/0x2+parseInt(_0x308600(0x9f))/0x3+parseInt(_0x308600(0x9c))/0x4+-parseInt(_0x308600(0xa4))/0x5*(-parseInt(_0x308600(0xa9))/0x6)+parseInt(_0x308600(0xa6))/0x7+-parseInt(_0x308600(0xa8))/0x8;if(_0x251be3===_0x3e4459)break;else _0x8db5d2['push'](_0x8db5d2['shift']());}catch(_0x19b56b){_0x8db5d2['push'](_0x8db5d2['shift']());}}}(a6_0x5633,0xa8946),System[a6_0x409a3e(0xa5)]([a6_0x409a3e(0x9b)],function(_0x486575,_0x276856){'use strict';var _0x959bcf,_0x390ea2,_0x26beb2,_0x43c3b1,_0x343e58;function _0x1edc7f(_0x51adc8){var _0x3616d1=a6_0x5a6a;return System[_0x3616d1(0xac)](_0x51adc8);}return{'setters':[function(_0x3409ca){var _0x5787b6=a6_0x5a6a;_0x959bcf=_0x3409ca[_0x5787b6(0xab)];}],'execute':function(){var _0x22464a=a6_0x5a6a;_0x390ea2=document[_0x22464a(0xa2)](_0x22464a(0x9d)),_0x26beb2=_0x390ea2[_0x22464a(0x9a)],_0x43c3b1=_0x26beb2[_0x22464a(0xa0)](),_0x390ea2['width']=_0x43c3b1[_0x22464a(0xa7)],_0x390ea2[_0x22464a(0xa1)]=_0x43c3b1[_0x22464a(0xa1)],_0x343e58=new _0x959bcf(),_0x1edc7f('cc')['then'](function(_0x46fe59){return _0x343e58['init'](_0x46fe59);})['then'](function(){var _0x4e96d0=_0x22464a;return _0x343e58[_0x4e96d0(0xaa)]();})['catch'](function(_0x2bd5e1){console['error'](_0x2bd5e1);});}};}));
+System.register(["./application.js"], function (_export, _context) {
+  "use strict";
+
+  var Application, canvas, $p, bcr, application;
+
+  function topLevelImport(url) {
+    return System["import"](url);
+  }
+
+  return {
+    setters: [function (_applicationJs) {
+      Application = _applicationJs.Application;
+    }],
+    execute: function () {
+      canvas = document.getElementById('GameCanvas');
+      $p = canvas.parentElement;
+      bcr = $p.getBoundingClientRect();
+      canvas.width = bcr.width;
+      canvas.height = bcr.height;
+      application = new Application();
+      topLevelImport('cc').then(function (engine) {
+        return application.init(engine);
+      }).then(function () {
+        return application.start();
+      })["catch"](function (err) {
+        console.error(err);
+      });
+    }
+  };
+});
